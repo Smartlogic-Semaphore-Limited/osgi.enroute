@@ -69,17 +69,6 @@
                 <updatePolicy>never</updatePolicy>
             </snapshots>
         </repository>
-        <repository>
-            <id>OSGi</id>
-            <name>OSGi public binaries</name>
-            <url>https://oss.sonatype.org/content/groups/osgi</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
     </repositories>
 
     <distributionManagement>
