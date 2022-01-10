@@ -18,7 +18,7 @@
         <name>OSGi Alliance</name>
         <url>https://osgi.org/</url>
     </organization>
-    
+
     <developers>
         <developer>
             <id>osgi</id>
@@ -38,14 +38,14 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/osgi/osgi.enroute</url>
-        <connection>scm:git:https://github.com/osgi/osgi.enroute.git</connection>
-        <developerConnection>scm:git:https://github.com/osgi/osgi.enroute.git</developerConnection>
+        <url>https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute</url>
+        <connection>scm:git:https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute.git</connection>
+        <developerConnection>scm:git:https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute.git</developerConnection>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/osgi/osgi.enroute/issues</url>
+        <url>https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute/issues</url>
     </issueManagement>
 
     <mailingLists>
@@ -59,26 +59,30 @@
 
     <repositories>
         <repository>
-            <id>OSGi</id>
-            <name>OSGi public binaries</name>
-            <url>https://oss.sonatype.org/content/groups/osgi</url>
+            <id>central</id>
+            <url>http://cart:8081/repository/maven-public/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
             <snapshots>
                 <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
             </snapshots>
         </repository>
     </repositories>
 
     <distributionManagement>
+        <site>
+            <id>${project.artifactId}-site</id>
+            <url>/</url>
+        </site>
         <repository>
-            <id>OSGi Releases</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>nexus</id>
+            <url>dav:http://cart:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>OSGi Snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>nexus</id>
+            <url>dav:http://cart:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -93,7 +97,7 @@
         <module>debug-bundles</module>
         <module>test-bundles</module>
     </modules>
-    
+
     <build>
         <plugins>
             <!-- Generate the indexes -->
@@ -112,7 +116,7 @@
             </plugin>
         </plugins>
     </build>
-    
+
     <profiles>
         <profile>
             <id>release</id>

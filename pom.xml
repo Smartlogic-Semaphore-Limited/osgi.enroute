@@ -17,12 +17,12 @@
     </description>
 
     <url>http://enroute.osgi.org/</url>
-    
+
     <organization>
         <name>OSGi Alliance</name>
         <url>https://osgi.org/</url>
     </organization>
-    
+
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -30,16 +30,16 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    
+
     <scm>
-        <url>https://github.com/osgi/osgi.enroute</url>
-        <connection>scm:git:https://github.com/osgi/osgi.enroute.git</connection>
-        <developerConnection>scm:git:https://github.com/osgi/osgi.enroute.git</developerConnection>
+        <url>https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute</url>
+        <connection>scm:git:https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute.git</connection>
+        <developerConnection>scm:git:https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute.git</developerConnection>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/osgi/osgi.enroute/issues</url>
+        <url>https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute/issues</url>
     </issueManagement>
 
     <mailingLists>
@@ -50,12 +50,12 @@
             <archive>https://mail.osgi.org/pipermail/osgi-dev/</archive>
         </mailingList>
     </mailingLists>
-    
+
     <!-- Do not deploy this project -->
     <properties>
         <maven.deploy.skip>true</maven.deploy.skip>
     </properties>
-    
+
     <modules>
         <module>indexes</module>
         <module>archetypes</module>
