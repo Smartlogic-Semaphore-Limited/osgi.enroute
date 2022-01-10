@@ -27,16 +27,16 @@
 
     <pluginRepositories>
         <pluginRepository>
-            <id>Bnd Snapshots</id>
-            <name>Bnd Latest build</name>
-            <url>https://bndtools.ci.cloudbees.com/job/bnd.master/lastSuccessfulBuild/artifact/dist/bundles/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
+          <id>central</id>
+        <url>http://cart:8081/repository/maven-public/</url>
+          <releases>
+              <enabled>true</enabled>
+          </releases>
+          <snapshots>
+              <enabled>true</enabled>
+              <updatePolicy>never</updatePolicy>
+          </snapshots>
+      </pluginRepository>
     </pluginRepositories>
 
     <dependencies>
@@ -263,7 +263,7 @@
             <version>1.0.0</version>
             <scope>runtime</scope>
         </dependency>
-        
+
         <!-- OSGi Transaction Control -->
         <dependency>
             <groupId>org.apache.aries.tx-control</groupId>
@@ -283,7 +283,7 @@
             <version>1.0.0</version>
             <scope>runtime</scope>
         </dependency>
-        
+
         <!-- OSGi Configurator -->
         <dependency>
             <groupId>org.apache.felix</groupId>
