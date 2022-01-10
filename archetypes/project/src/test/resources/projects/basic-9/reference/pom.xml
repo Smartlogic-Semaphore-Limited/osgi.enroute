@@ -19,24 +19,14 @@
 
     <repositories>
         <repository>
-            <id>OSGi</id>
-            <name>OSGi public binaries</name>
-            <url>https://oss.sonatype.org/content/groups/osgi</url>
+            <id>central</id>
+            <url>http://cart:8081/repository/maven-public/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
             <snapshots>
                 <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>Apache Snapshots</id>
-            <url>https://repository.apache.org/content/groups/snapshots/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
             </snapshots>
         </repository>
     </repositories>
