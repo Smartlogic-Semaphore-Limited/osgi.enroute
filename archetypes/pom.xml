@@ -78,11 +78,11 @@
         </site>
         <repository>
             <id>nexus</id>
-            <url>dav:http://cart:8081/repository/maven-releases/</url>
+            <url>http://cart:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
-            <url>dav:http://cart:8081/repository/maven-snapshots/</url>
+            <url>http://cart:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
