@@ -6,7 +6,7 @@
 
   <groupId>archetype.it</groupId>
   <artifactId>basic</artifactId>
-  <version>0.1</version>
+  <version>0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <description>The basic application - built using OSGi enRoute R7</description>

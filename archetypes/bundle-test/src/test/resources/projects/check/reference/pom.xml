@@ -5,7 +5,7 @@
 
   <groupId>archetype.it</groupId>
   <artifactId>bundle-testing</artifactId>
-  <version>0.1</version>
+  <version>0.1-SNAPSHOT</version>
 
   <description>The bundle-testing bundle testing project - using OSGi enRoute R7</description>
 
