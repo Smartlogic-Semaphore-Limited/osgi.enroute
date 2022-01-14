@@ -8,7 +8,7 @@
   <artifactId>enroute-all</artifactId>
   <name>OSGi enRoute All</name>
   <packaging>pom</packaging>
-  <version>7.0.0.2-SNAPSHOT</version>
+  <version>7.0.3-SNAPSHOT</version>
 
   <description>
         A top-level reactor for building all of the OSGi enRoute projects.
