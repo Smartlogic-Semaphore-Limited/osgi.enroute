@@ -14,7 +14,7 @@
     <dependency>
       <groupId>archetype.it</groupId>
       <artifactId>impl-bundle</artifactId>
-      <version>0.1</version>
+      <version>0.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.osgi.enroute</groupId>
