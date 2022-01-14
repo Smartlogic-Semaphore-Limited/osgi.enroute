@@ -6,7 +6,7 @@
 
   <groupId>archetype.it</groupId>
   <artifactId>rest-impl</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.1</version>
 
   <description>The rest-impl DS component - built using OSGi enRoute R7</description>
 

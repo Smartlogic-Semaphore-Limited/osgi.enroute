@@ -5,7 +5,7 @@
     // Global Settings
     ":configurator:resource-version" : 1,
     ":configurator:symbolic-name" : "archetype.it.standalone-app-module.config",
-    ":configurator:version" : "0.1-SNAPSHOT",
+    ":configurator:version" : "0.1",
     
     /*
     // This defines a configuration

@@ -6,7 +6,7 @@
 
   <groupId>archetype.it</groupId>
   <artifactId>api-module</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.1</version>
 
   <description>The api-module API bundle - built using OSGi enRoute R7</description>
 
