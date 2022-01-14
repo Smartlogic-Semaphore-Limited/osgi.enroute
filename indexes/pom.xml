@@ -1,143 +1,143 @@
 <?xml version="1.0"?>
 <project
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
-    xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <modelVersion>4.0.0</modelVersion>
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+  xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.osgi.enroute</groupId>
-    <artifactId>indexes</artifactId>
-    <name>OSGi enRoute indexes parent</name>
-    <packaging>pom</packaging>
-    <version>7.0.0</version>
+  <groupId>org.osgi.enroute</groupId>
+  <artifactId>indexes</artifactId>
+  <name>OSGi enRoute indexes parent</name>
+  <packaging>pom</packaging>
+  <version>7.0.0</version>
 
-    <description>The parent for generating the R7 OSGi indexes used by enRoute</description>
+  <description>The parent for generating the R7 OSGi indexes used by enRoute</description>
 
-    <url>http://enroute.osgi.org/</url>
+  <url>http://enroute.osgi.org/</url>
 
-    <organization>
-        <name>OSGi Alliance</name>
-        <url>https://osgi.org/</url>
-    </organization>
+  <organization>
+    <name>OSGi Alliance</name>
+    <url>https://osgi.org/</url>
+  </organization>
 
-    <developers>
-        <developer>
-            <id>osgi</id>
-            <name>OSGi Alliance</name>
-            <email>info@osgi.org</email>
-            <organization>OSGi Alliance</organization>
-            <organizationUrl>https://www.osgi.org/</organizationUrl>
-        </developer>
-    </developers>
+  <developers>
+    <developer>
+      <id>osgi</id>
+      <name>OSGi Alliance</name>
+      <email>info@osgi.org</email>
+      <organization>OSGi Alliance</organization>
+      <organizationUrl>https://www.osgi.org/</organizationUrl>
+    </developer>
+  </developers>
 
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <url>http://www.opensource.org/licenses/apache2.0.php</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.opensource.org/licenses/apache2.0.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
-    <scm>
-        <url>https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute</url>
-        <connection>scm:git:https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute.git</connection>
-        <developerConnection>scm:git:https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute.git</developerConnection>
-    </scm>
+  <scm>
+    <url>https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute</url>
+    <connection>scm:git:https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute.git</connection>
+    <developerConnection>scm:git:https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute.git</developerConnection>
+  </scm>
 
-    <issueManagement>
-        <system>GitHub</system>
-        <url>https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute/issues</url>
-    </issueManagement>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/Smartlogic-Semaphore-Limited/osgi.enroute/issues</url>
+  </issueManagement>
 
-    <mailingLists>
-        <mailingList>
-            <name>OSGi Developer Mail List</name>
-            <post>osgi-dev@mail.osgi.org</post>
-            <subscribe>https://mail.osgi.org/mailman/listinfo/osgi-dev</subscribe>
-            <archive>https://mail.osgi.org/pipermail/osgi-dev/</archive>
-        </mailingList>
-    </mailingLists>
+  <mailingLists>
+    <mailingList>
+      <name>OSGi Developer Mail List</name>
+      <post>osgi-dev@mail.osgi.org</post>
+      <subscribe>https://mail.osgi.org/mailman/listinfo/osgi-dev</subscribe>
+      <archive>https://mail.osgi.org/pipermail/osgi-dev/</archive>
+    </mailingList>
+  </mailingLists>
 
-    <repositories>
-        <repository>
-            <id>central</id>
-            <url>http://cart:8081/repository/maven-public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>never</updatePolicy>
-            </snapshots>
-        </repository>
-    </repositories>
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>http://cart:8081/repository/maven-public/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+      </snapshots>
+    </repository>
+  </repositories>
 
-    <distributionManagement>
-        <site>
-            <id>${project.artifactId}-site</id>
-            <url>/</url>
-        </site>
-        <repository>
-            <id>nexus</id>
-            <url>http://cart:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus</id>
-            <url>http://cart:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+  <distributionManagement>
+    <site>
+      <id>${project.artifactId}-site</id>
+      <url>/</url>
+    </site>
+    <repository>
+      <id>nexus</id>
+      <url>http://cart:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <url>http://cart:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
 
-    <modules>
-        <module>osgi-api</module>
-        <module>impl-index</module>
-        <module>enterprise-api</module>
-        <module>debug-bundles</module>
-        <module>test-bundles</module>
-    </modules>
+  <modules>
+    <module>osgi-api</module>
+    <module>impl-index</module>
+    <module>enterprise-api</module>
+    <module>debug-bundles</module>
+    <module>test-bundles</module>
+  </modules>
 
-    <build>
-        <plugins>
+  <build>
+    <plugins>
             <!-- Generate the indexes -->
-            <plugin>
-                <groupId>biz.aQute.bnd</groupId>
-                <artifactId>bnd-indexer-maven-plugin</artifactId>
-                <version>4.1.0</version>
-                <executions>
-                    <execution>
-                        <id>index</id>
-                        <goals>
-                            <goal>index</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+      <plugin>
+        <groupId>biz.aQute.bnd</groupId>
+        <artifactId>bnd-indexer-maven-plugin</artifactId>
+        <version>4.1.0</version>
+        <executions>
+          <execution>
+            <id>index</id>
+            <goals>
+              <goal>index</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 
-    <profiles>
-        <profile>
-            <id>release</id>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.6</version>
-                        <executions>
-                            <execution>
-                                <id>sign-artifacts</id>
-                                <phase>verify</phase>
-                                <goals>
-                                    <goal>sign</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-    </profiles>
+  <profiles>
+    <profile>
+      <id>release</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>1.6</version>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
 </project>
