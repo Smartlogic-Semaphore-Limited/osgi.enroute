@@ -6,7 +6,7 @@
 
   <groupId>archetype.it</groupId>
   <artifactId>standalone-app-module</artifactId>
-  <version>0.1</version>
+  <version>0.1-SNAPSHOT</version>
 
   <description>The standalone-app-module application packaging project - using OSGi enRoute R7</description>
 
