@@ -182,7 +182,8 @@
       <artifactId>org.apache.aries.jax.rs.whiteboard</artifactId>
       <version>1.0.10</version>
       <scope>runtime</scope>
-      <exclusions>
+    </dependency>
+      <!-- <exclusions>
         <exclusion>
           <groupId>org.apache.cxf</groupId>
           <artifactId>cxf-rt-rs-sse</artifactId>
@@ -234,7 +235,7 @@
       <artifactId>cxf-rt-rs-sse</artifactId>
       <version>3.4.7</version>
       <scope>compile</scope>
-    </dependency>
+    </dependency> -->
 
 
     <!-- JAX-RS 2.1 API with contract -->
