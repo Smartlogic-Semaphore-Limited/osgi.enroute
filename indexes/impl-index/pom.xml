@@ -180,60 +180,8 @@
     <dependency>
       <groupId>org.apache.aries.jax.rs</groupId>
       <artifactId>org.apache.aries.jax.rs.whiteboard</artifactId>
-      <version>1.0.3</version>
+      <version>1.0.4</version>
       <scope>runtime</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>org.apache.cxf</groupId>
-          <artifactId>cxf-rt-rs-sse</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>org.apache.cxf</groupId>
-          <artifactId>cxf-rt-rs-client</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>org.apache.aries.jax.rs.cxf.repackage</groupId>
-          <artifactId>org.apache.aries.jax.rs.cxf.repackage</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.cxf</groupId>
-      <artifactId>cxf-rt-rs-client</artifactId>
-      <version>3.4.7</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>jakarta.activation</artifactId>
-          <groupId>com.sun.activation</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>javax.ws.rs-api</artifactId>
-          <groupId>javax.ws.rs</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>jakarta.annotation-api</artifactId>
-          <groupId>jakarta.annotation</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>jakarta.ws.rs-api</artifactId>
-          <groupId>jakarta.ws.rs</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>jakarta.xml.bind-api</artifactId>
-          <groupId>jakarta.xml.bind</groupId>
-        </exclusion>
-        <exclusion>
-          <groupId>com.fasterxml.woodstox</groupId>
-          <artifactId>woodstox-core</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.cxf</groupId>
-      <artifactId>cxf-rt-rs-sse</artifactId>
-      <version>3.4.7</version>
-      <scope>compile</scope>
     </dependency>
 
 
